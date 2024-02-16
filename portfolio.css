@@ -44,8 +44,12 @@ body{
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+   margin: 50px 5px;
+}
+
+.functional{
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 
