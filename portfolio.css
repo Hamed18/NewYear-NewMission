@@ -1,4 +1,21 @@
 /* shared font */
+
+.banner-1{
+	background-image: url('resources/Banner\ Image.png'); /* Specify the path to your image */
+	background-size: cover; /* Cover the entire background */
+	background-position: center; /* Center the background image */
+	background-repeat: no-repeat; /* Do not repeat the background image */
+  }
+
+  .banner-2{
+	background-image: url('resources/Banner\ Image.png'); /* Specify the path to your image */
+	background-size: cover; /* Cover the entire background */
+	background-position: center; /* Center the background image */
+	background-repeat: no-repeat; /* Do not repeat the background image */
+  }
+
+  
+
 body{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -8,27 +25,6 @@ body{
     "wdth" 100;
 }
 
-/*nav design*/
-nav{
-	display: flex;
-	justify-content: space-between;
-	padding-left: 20px;
-}
-
-nav > ul{
-	display: flex;
-	align-items: center;
-}
-
-nav li{
-	list-style: none;
-	margin-right: 50px;
-}
-
-nav a{
-	text-decoration: none;
-	color: black;
-}
 
 .btn-primary{
 	background: orangered;
@@ -37,6 +33,7 @@ nav a{
 	font-weight: 700;
 	color: white;
     padding: 5px 15px;
+	width: 150px;
 }
 
 .text-primary{
@@ -135,8 +132,19 @@ main section{
 	margin-top: 25px;
 }
 
+/*  about section styles */
+.flex{
+	display: flex;
+	justify-content: space-between;
+}
 
-/* about section styles */
+
+
+
+
+
+
+/* coming-soon */
 .about{
 	padding: 130px;
 	border-radius: 10px;
@@ -175,93 +183,66 @@ main section{
 	padding: 30px 150px;
 }
 
-/* skills - i - do - description */
-
-#what-i-do-des{
-	padding: 30px 150px;
+.functional{
+	text-align: center;
 }
 
-.skills-container{
+.beside-img{
+	display: flex;
+}
+
+.awsm-portf-2{
+	display: flex;
+	padding: 0px;
+}
+
+.newsletter{
+	align-items: center;
+}
+
+
+/* footer  */
+footer{
+     background-color: black;
+}
+
+.social-links{
+	display: flex;
+}
+
+.footer-col{
 	display: flex;
 	justify-content: space-between;
-	gap: 24px;
+	color: white;
 }
 
-.skill-des{
-	padding: 30px;
+hr{
+	height: 2px;
 }
 
-.skill{
-	padding: 30px;
-	border-radius: 5px;
-	background: white;
-	box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
-}
 
-/* Resume section style */
-.resume-column-title{
-	color: orangered;
-	text-align: center;
-	font-family: open Sans;
-	font-size: 20px;
-	font-weight: 500;
-	line-height: normal;
-}
 
-.resume-container{
-	display: flex;
-	gap: 50px;
-}
 
-.resume-item-des .resume-item-inst{
-    color: blue;
-}
 
-.resume-item-title{
-	color: orangered;
-	font-family: open Sans;
-	font-size: 20px;
-	font-weight: 500;
-	line-height: normal;
-	margin-bottom: 10px;
-}
 
-.resume-container{
-	margin: 30px;
-	display: flex;
-}
 
-.resume-item-inst{
-	margin-bottom: 20px;
-	margin-top: 0px;
-}
 
-.download-cv{
-	justify-content: center;
-	margin-top: 50px;
-	width: 250px;
-}
 
-/* footer-style */
-footer{
-	display: flex;
-	gap: 100px;
-	background: white;
-	padding: 130px 200px;
-	margin-top: 100px;
-}
 
-.footer-coloumn{
-	width: 50%;
-}
 
-.contact input[type="text"], .contact input[type="email"],
-textarea{
-	display: block;
-	margin-bottom: 25px;
-	padding: 18px 35px;
-	color: rgba(0,0,0,0.06);
-	border-radius: 5px;
-	background: white;
-	border: 30px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
